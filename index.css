@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Popppins", sans-serif;
+
+}
+
+body {
+    background: linear-gradient(90deg, #e395f5, #dcabe1, #6ebbfa);
+
+}
+
+.main h1 {
+    text-align: center;
+}
+
+
+
+.All, .Asia, .Europe, .America {
+    width: 70px;
+    height: 30px;
+    box-shadow: 3px 3px 10px #6ebbfa;
+    border: none;
+    border-radius: 20px;
+    background: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    margin-left: 6rem;
+}
+
+.America {
+    box-shadow: 3px 3px 10px #e395f5;
+}
